@@ -71,7 +71,7 @@ def k_means(k, data_file, dist_function, centroids_file=None):
                 if test < dist:
                     rec[2] = mean[2]
                     dist = test
-            print rec[2]
+
             num_in_class[rec[2]] += 1
             centroid_sums[rec[2]][0] += rec[0]
             centroid_sums[rec[2]][1] += rec[1]
@@ -96,14 +96,29 @@ def k_means(k, data_file, dist_function, centroids_file=None):
 
 
 dat = k_means(15, "s4.txt", euclid_dist, "s4-cb.txt")
-data_points = pd.DataFrame.from_records(dat[0], columns=['x', 'y', 'class'])
-cluster_points = pd.DataFrame.from_records(dat[1], columns=['x', 'y', 'class'])
-point_cmap = pyplot.get_cmap('gist_ncar')
-centroid_cmap = pyplot.get_cmap('Reds')
-ax = data_points.plot.scatter(x='x', y='y', c=data_points['class'], cmap=point_cmap)
-cluster_points.plot.scatter(x='x', y='y', marker='^', c="class", cmap=centroid_cmap, s=50, ax=ax)
-ax.set_aspect('equal')
-pyplot.show()
+cluster_points = pd.DataFrame.from_records(dat[1], columns=['x', 'y', 'clust'])
+
+data_points = pd.DataFrame.from_records(dat[0], columns=['x', 'y', 'clust'])
+data_points.sort_values(['clust'], ascending=True)
+classes=data_points['clust'].unique().tolist()
+
+
+
+
+
+# point_cmap = pyplot.get_cmap('gist_ncar')
+# centroid_cmap = pyplot.get_cmap('Reds')
+# ax = data_points.plot.scatter(x='x', y='y', c=data_points['class'], legend=False, colormap='winter')
+# cluster_points.plot.scatter(x='x', y='y', marker='^', c="class", legend=False, cmap=centroid_cmap, s=100, ax=ax)
+# ax.set_aspect('equal')
+#
+# f = pyplot.gcf()
+# cax = f.get_axes()[1]
+#
+# cax.set_ylabel('test')
+# pyplot.axis('off')
+# pyplot.savefig("test.png",bbox_inches='tight')
+
 
 
 def dunn_index(cluster_and_means):
