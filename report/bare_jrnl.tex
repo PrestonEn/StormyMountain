@@ -136,6 +136,31 @@ For a range of clusters $[i..n]$, the algoritm can be run a number of times, and
 	\end{tabular}
 \end{table}
 
+Experiments were run using 10, 15 and 20 randomly selected centroid values, using Euclidean, Chebyshev and Mikowsky (p=3). Their results are plotted on a 2D scatterplot. Each Experiment also generated the Dunn index using the respective distance measure. Because of the use of different measures in calculating the Dunn index, it is difficult to make direct comparisons between results, however their visual appearence indicates their performance on the sets is comprable. For consideration, results using each distance measure with the optimal centroids for the S4 datasets are presented in Fig 2, 3 and 4 respectivly.
+
+An "Apples to Apples" comparison of Dunn Index for random and optimal centroids is presented in Table 1, using the Euclidean distance measure. The DI is smaller for more tichtly packed datasets. The DI is a good indicator of how a plot will appear visually. Fig 6 shows several examples of centroid convergence leading to a low DI. The 2 left-most clusters contain centroids very close together in the same dense segment of points. Other centroids are positioned between points, as oppesed to centered within a dense group.
+
+\begin{figure}[!t]
+	\centering
+	\includegraphics[width=2.5in]{../figs/s4_true_euclid_comp_15.png}
+	\caption{Results using Optimal Clusters on the S4 dataset using Euclidean Distance.}
+	\label{fig_sim}
+\end{figure}
+
+\begin{figure}[!t]
+	\centering
+	\includegraphics[width=2.5in]{../figs/s4_true_cheby_comp_15.png}
+	\caption{Results using Optimal Clusters on the S4 dataset using Chebyshev Distance.}
+	\label{fig_sim}
+\end{figure}
+
+\begin{figure}[!t]
+	\centering
+	\includegraphics[width=2.5in]{../figs/s4_true_mikow_comp_15.png}
+	\caption{Results using Optimal Clusters on the S4 dataset using Mikowsky Distance.}
+	\label{fig_sim}
+\end{figure}
+
 \begin{figure}[!t]
 \centering
 \includegraphics[width=2.5in]{../figs/s1_true_euclid_15.png}
@@ -177,13 +202,6 @@ For a range of clusters $[i..n]$, the algoritm can be run a number of times, and
 	\caption{Results using Optimal Clusters on the S3 dataset.}
 	\label{fig_sim}
 \end{figure}
-\begin{figure}[!t]
-	\centering
-	\includegraphics[width=2.5in]{../figs/s4_true_euclid_15.png}
-	\caption{Results using Optimal Clusters on the S4 dataset.}
-	\label{fig_sim}
-\end{figure}
-
 
 
 \section{Conclusion}

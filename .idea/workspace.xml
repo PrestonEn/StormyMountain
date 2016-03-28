@@ -4,7 +4,6 @@
     <list default="true" id="c1748264-a722-4a8c-8220-98131aad15ea" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/bare_jrnl.pdf" afterPath="$PROJECT_DIR$/report/bare_jrnl.pdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/bare_jrnl.synctex.gz" afterPath="$PROJECT_DIR$/report/bare_jrnl.synctex.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/k_means.py" afterPath="$PROJECT_DIR$/Source/k_means.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/bare_jrnl.aux" afterPath="$PROJECT_DIR$/report/bare_jrnl.aux" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/bare_jrnl.log" afterPath="$PROJECT_DIR$/report/bare_jrnl.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/bare_jrnl.tex" afterPath="$PROJECT_DIR$/report/bare_jrnl.tex" />
@@ -32,11 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="k_means.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="k_means.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Source/k_means.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.8888888">
-              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+            <state vertical-scroll-proportion="-2.400703">
+              <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -51,7 +50,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="s3_true_mikow_comp_15.png" pinned="false" current-in-tab="true">
+      <file leaf-file-name="s3_true_mikow_comp_15.png" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/figs/s3_true_mikow_comp_15.png">
           <provider selected="true" editor-type-id="images">
             <state />
@@ -789,16 +788,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Source/k_means.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.8888888">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/figs/s4_true_euclid_comp_15.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -807,6 +796,16 @@
     <entry file="file://$PROJECT_DIR$/figs/s3_true_mikow_comp_15.png">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/k_means.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.400703">
+          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
