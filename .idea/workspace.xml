@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1748264-a722-4a8c-8220-98131aad15ea" name="Default" comment="" />
+    <list default="true" id="c1748264-a722-4a8c-8220-98131aad15ea" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/bare_jrnl.pdf" afterPath="$PROJECT_DIR$/report/bare_jrnl.pdf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/bare_jrnl.synctex.gz" afterPath="$PROJECT_DIR$/report/bare_jrnl.synctex.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/k_means.py" afterPath="$PROJECT_DIR$/Source/k_means.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/bare_jrnl.aux" afterPath="$PROJECT_DIR$/report/bare_jrnl.aux" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/bare_jrnl.log" afterPath="$PROJECT_DIR$/report/bare_jrnl.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/bare_jrnl.tex" afterPath="$PROJECT_DIR$/report/bare_jrnl.tex" />
+    </list>
     <ignored path="StormyMountain.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -14,7 +21,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/StormyMountain$k_means.coverage" NAME="k_means Coverage Results" MODIFIED="1459131778704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Source" />
+    <SUITE FILE_PATH="coverage/StormyMountain$k_means.coverage" NAME="k_means Coverage Results" MODIFIED="1459179032903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Source" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -28,8 +35,8 @@
       <file leaf-file-name="k_means.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Source/k_means.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-54.444443">
-              <caret line="196" column="55" selection-start-line="196" selection-start-column="55" selection-end-line="196" selection-end-column="55" />
+            <state vertical-scroll-proportion="-3.8888888">
+              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -37,69 +44,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="results" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Source/results">
+      <file leaf-file-name="s4_true_euclid_comp_15.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/figs/s4_true_euclid_comp_15.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="s3_true_mikow_comp_15.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/figs/s3_true_mikow_comp_15.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="results_dist3" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Source/results_dist3">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="8" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="s2_rand_cheb_15.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/figs/s2_rand_cheb_15.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="results_dist2" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Source/results_dist2">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="s1_rand_cheb_15.png" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/figs/s1_rand_cheb_15.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="s1_rand_euclid_15.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/figs/s1_rand_euclid_15.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="s2_rand_euclid_10.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/figs/s2_rand_euclid_10.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="s2_rand_euclid_15.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/figs/s2_rand_euclid_15.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="s2_rand_euclid_20.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/figs/s2_rand_euclid_20.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="s2_rand_miko_15.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/figs/s2_rand_miko_15.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="s2_true_euclid_15.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/figs/s2_true_euclid_15.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="results_dist" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Source/results_dist">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -124,8 +109,8 @@
         <option value="$PROJECT_DIR$/data/s1.txt" />
         <option value="$PROJECT_DIR$/data/s3-cb.txt" />
         <option value="$PROJECT_DIR$/report/bare_jrnl.tex" />
-        <option value="$PROJECT_DIR$/Source/k_means.py" />
         <option value="$PROJECT_DIR$/Source/results" />
+        <option value="$PROJECT_DIR$/Source/k_means.py" />
       </list>
     </option>
   </component>
@@ -712,16 +697,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Source/k_means.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-54.444443">
-          <caret line="196" column="55" selection-start-line="196" selection-start-column="55" selection-end-line="196" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/figs/s2_rand_euclid_10.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -752,14 +727,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Source/results">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/figs/s2_rand_cheb_15.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -771,6 +738,73 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/figs/s1_rand_cheb_15.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/results_dist2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/results_dist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/results_dist3">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/results">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/figs/s1_true_cheby_comp_15.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/figs/s1_true_mikow_comp_15.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/figs/s1_true_euclid_comp_15.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Source/k_means.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.8888888">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/figs/s4_true_euclid_comp_15.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/figs/s3_true_mikow_comp_15.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>

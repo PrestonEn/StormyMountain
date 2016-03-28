@@ -9,7 +9,7 @@ import collections
 import copy
 
 data_path = "../data/"
-f = open('results', 'w')
+f = open('results_dist4', 'w')
 
 def euclid_dist(mean, rec):
     p1 = (mean[0] - rec[0]) ** 2
@@ -23,6 +23,7 @@ def cheby_dist(mean, rec):
     return max(p1, p2)
 
 def mikow_dist(mean, rec):
+    # set the lambda value to 3
     p1 = abs(mean[0] - rec[0]) ** 3
     p2 = abs(mean[1] - rec[1]) ** 3
     return math.pow(p1 + p2, 1/float(3))
@@ -176,51 +177,53 @@ def exprun(k, dist_fun, data_file, plot_name, cluster_file=None):
 
 
 
+exprun(15, euclid_dist, "s4.txt", "s4_true_euclid_comp_15.png", "s4-cb.txt")
+exprun(15, cheby_dist, "s4.txt", "s4_true_cheby_comp_15.png", "s4-cb.txt")
+exprun(15, mikow_dist, "s4.txt", "s4_true_mikow_comp_15.png", "s4-cb.txt")
 
-
-exprun(15, euclid_dist, "s1.txt", "s1_rand_euclid_15.png")
-
-exprun(10, euclid_dist, "s1.txt", "s1_rand_euclid_10.png")
-
-exprun(20, euclid_dist, "s1.txt", "s1_rand_euclid_20.png")
-
-exprun(15, cheby_dist, "s1.txt", "s1_rand_cheb_15.png")
-
-exprun(15, mikow_dist, "s1.txt", "s1_rand_miko_15.png")
-
-exprun(15, euclid_dist, "s1.txt", "s1_true_euclid_15.png", "s1-cb.txt")
-
-exprun(15, euclid_dist, "s2.txt", "s2_rand_euclid_15.png")
-exprun(10, euclid_dist, "s2.txt", "s2_rand_euclid_10.png")
-
-exprun(20, euclid_dist, "s2.txt", "s2_rand_euclid_20.png")
-exprun(15, cheby_dist, "s2.txt", "s2_rand_cheb_15.png")
-exprun(15, mikow_dist, "s2.txt", "s2_rand_miko_15.png")
-
-exprun(15, euclid_dist, "s2.txt", "s2_true_euclid_15.png", "s2-cb.txt")
-
-exprun(15, euclid_dist, "s3.txt", "s3_rand_euclid_15.png")
-
-exprun(10, euclid_dist, "s3.txt", "s3_rand_euclid_10.png")
-
-exprun(20, euclid_dist, "s3.txt", "s3_rand_euclid_20.png")
-exprun(15, cheby_dist, "s3.txt", "s3_rand_cheb_15.png")
-exprun(15, mikow_dist, "s3.txt", "s3_rand_miko_15.png")
-
-exprun(15, euclid_dist, "s3.txt", "s3_true_euclid_15.png", "s3-cb.txt")
-
-exprun(15, euclid_dist, "s4.txt", "s4_rand_euclid_15.png")
-
-exprun(10, euclid_dist, "s4.txt", "s4_rand_euclid_10.png")
-
-exprun(20, euclid_dist, "s4.txt", "s4_rand_euclid_20.png")
-print("exp21")
-
-exprun(15, cheby_dist, "s4.txt", "s4_cheb_euclid_15.png")
-print("exp22")
-
-exprun(15, mikow_dist, "s4.txt", "s4_miko_euclid_15.png")
-print ("exp23")
-
-exprun(15, euclid_dist, "s4.txt", "s4_true_euclid_15.png", "s4-cb.txt")
-print("exp24")
+# exprun(15, euclid_dist, "s1.txt", "s1_rand_euclid_15.png")
+#
+# exprun(10, euclid_dist, "s1.txt", "s1_rand_euclid_10.png")
+#
+# exprun(20, euclid_dist, "s1.txt", "s1_rand_euclid_20.png")
+#
+# exprun(15, cheby_dist, "s1.txt", "s1_rand_cheb_15.png")
+#
+# exprun(15, mikow_dist, "s1.txt", "s1_rand_miko_15.png")
+#
+# exprun(15, euclid_dist, "s1.txt", "s1_true_euclid_15.png", "s1-cb.txt")
+#
+# exprun(15, euclid_dist, "s2.txt", "s2_rand_euclid_15.png")
+# exprun(10, euclid_dist, "s2.txt", "s2_rand_euclid_10.png")
+#
+# exprun(20, euclid_dist, "s2.txt", "s2_rand_euclid_20.png")
+# exprun(15, cheby_dist, "s2.txt", "s2_rand_cheb_15.png")
+# exprun(15, mikow_dist, "s2.txt", "s2_rand_miko_15.png")
+#
+# exprun(15, euclid_dist, "s2.txt", "s2_true_euclid_15.png", "s2-cb.txt")
+#
+# exprun(15, euclid_dist, "s3.txt", "s3_rand_euclid_15.png")
+#
+# exprun(10, euclid_dist, "s3.txt", "s3_rand_euclid_10.png")
+#
+# exprun(20, euclid_dist, "s3.txt", "s3_rand_euclid_20.png")
+# exprun(15, cheby_dist, "s3.txt", "s3_rand_cheb_15.png")
+# exprun(15, mikow_dist, "s3.txt", "s3_rand_miko_15.png")
+#
+# exprun(15, euclid_dist, "s3.txt", "s3_true_euclid_15.png", "s3-cb.txt")
+#
+# exprun(15, euclid_dist, "s4.txt", "s4_rand_euclid_15.png")
+#
+# exprun(10, euclid_dist, "s4.txt", "s4_rand_euclid_10.png")
+#
+# exprun(20, euclid_dist, "s4.txt", "s4_rand_euclid_20.png")
+# print("exp21")
+#
+# exprun(15, cheby_dist, "s4.txt", "s4_cheb_euclid_15.png")
+# print("exp22")
+#
+# exprun(15, mikow_dist, "s4.txt", "s4_miko_euclid_15.png")
+# print ("exp23")
+#
+# exprun(15, euclid_dist, "s4.txt", "s4_true_euclid_15.png", "s4-cb.txt")
+# print("exp24")
