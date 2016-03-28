@@ -33,16 +33,81 @@ Clustering, K-means, Machine Learning
 
 
 \section{Introduction}
-\IEEEPARstart{T}{he} K-Means Clustering Algortihm has continued to be the workhorse of clustering tasks since its development in 1967 by James MacQueen. Clustering is the task of grouping a set of unlabled data vectors into groups, or clusters. Items in a cluster should be more alike items in the same cluster, and much less like items in other clusters. Clustering is one of the most common tasks of exploratory data mining for extracting preliminary observations about datasets. In this implementation, the data consists of points on a 2D plain. The clusters are simply the collection of points closest to the center of the cluster based on some distance measure.
+\IEEEPARstart{T}{he} K-Means Clustering Algortihm has continued to be the workhorse of clustering tasks since its development in 1967 by James MacQueen.
+In this implementation, the data consists of points on a 2D plain. The clusters are simply the collection of points closest to the center of the cluster based on some distance measure. K-means, and clustering algorithms in general, suffer greatly from the curse of dimensionallity due to their reliance on relating data vectors to each other in a multidimensional space. Presenting data in a 2D space is the best case scenario for exploring the behavior of the algorithm. 
 
- 
+\subsection{Problem Definition}
+ Clustering is the task of grouping a set of unlabled data vectors into groups, or clusters. Items in a cluster should be more alike items in the same cluster, and much less like items in other clusters. Clustering is one of the most common tasks of exploratory data mining for extracting preliminary observations about datasets. This paper begins with a description of the K-Means Algorithm and its implementation using the Euclidean, Chebyshev and Minkowski distance measures. The results are then presented and compared using the Dunn Index.
+
 
 
 \section{The K-Means Algorithm}
+K-Means is a method of vector quantization taken from signal processing. Vector quantization itself is the process of taking a set of complex vectors and compressing them into broader group. With its origins for lossy data compression and lossy error correction, the same processes have been applied for data exploration, pattern recognition and clustering, as in K-Means.
+
+The K-Means alogrithm can be divided into 2 distinct steps. The assignment step and the update step, where the centroids are moved and member data points updated until convergence is reached.
+
+\subsection{Description}
+
+\subsection{Centroid Intialization }
+
+\subsection{Pseudocode Implementation}
+
+\subsection{Distance Measures}
+
+\subsection{Euclidean Distance}
+
+\subsection{Chebyshev Distance}
+
+\subsection{Minkowski Distance}
+\section{Cluster Analysis Using The Dunn Index}
+
+
 
 \section{Results and Discussion}
+\begin{table}[!t]
+	
+	\renewcommand{\arraystretch}{1.3}
+	
+	\caption{Comparison of S-Set Dunn Index, Euclidian Distance}
+	\label{table_example}
+	\centering
+	
+	\begin{tabular}{|c|c|c|c|c|}
+		\hline
+		Dataset & 10 Centroids & 15 Centroids & 20 Centroids & Optimal Value\\
+		\hline
+		
+		S1 & 0.004797  & 0.012200 & 0.005278 & 0.0367893\\
+		\hline
+		S2 & 0.002901 & 0.005611 & 0.006178 & 0.020947\\
+		\hline
+		S3 & 0.006027 & 0.008156 & 0.008058 & 0.004394\\
+		\hline
+		S4 & 0.005708 & 0.006873 & 0.005099 & 0.007474\\
+		\hline
+	\end{tabular}
+\end{table}
+
+\begin{figure}[!t]
+\centering
+\includegraphics[width=2.5in]{../figs/s1_true_euclid_15.png}
+\caption{Optimal Clusters for the S1 dataset.}
+\label{fig_sim}
+\end{figure}
+
+\begin{figure}[!t]
+	\centering
+	\includegraphics[width=2.5in]{../figs/s1_rand_euclid_15.png}
+	\caption{Results using 15 randomly initialized centroids on the S1 Dataset}
+	\label{fig_sim}
+\end{figure}
+
+
+
 
 \section{Conclusion}
+
+
 The conclusion goes here.
 
 \ifCLASSOPTIONcaptionsoff
