@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1748264-a722-4a8c-8220-98131aad15ea" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/bare_jrnl.pdf" afterPath="$PROJECT_DIR$/report/bare_jrnl.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/bare_jrnl.synctex.gz" afterPath="$PROJECT_DIR$/report/bare_jrnl.synctex.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/bare_jrnl.aux" afterPath="$PROJECT_DIR$/report/bare_jrnl.aux" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/bare_jrnl.log" afterPath="$PROJECT_DIR$/report/bare_jrnl.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/report/bare_jrnl.tex" afterPath="$PROJECT_DIR$/report/bare_jrnl.tex" />
-    </list>
+    <list default="true" id="c1748264-a722-4a8c-8220-98131aad15ea" name="Default" comment="" />
     <ignored path="StormyMountain.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
