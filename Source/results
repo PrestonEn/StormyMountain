@@ -1,0 +1,26 @@
+0.00479678151466	s1_rand_euclid_15.png
+0.0122001597424	s1_rand_euclid_10.png
+0.00527879065337	s1_rand_euclid_20.png
+0.00303542863137	s1_rand_cheb_15.png
+0.00307413661084	s1_rand_miko_15.png
+0.0367893221797	s1_true_euclid_15.png
+
+
+0.00561133141757	s2_rand_euclid_15.png
+0.00290084231335	s2_rand_euclid_10.png
+0.00617895313364	s2_rand_euclid_20.png
+0.00189965577456	s2_rand_cheb_15.png
+0.0209471356196	s2_rand_miko_15.png
+0.0188984049474	s2_true_euclid_15.png
+0.00815653908574	s3_rand_euclid_15.png
+0.00602699489879	s3_rand_euclid_10.png
+0.00805770155095	s3_rand_euclid_20.png
+0.00641932938362	s3_rand_cheb_15.png
+0.00382193719412	s3_rand_miko_15.png
+0.00439430140827	s3_true_euclid_15.png
+0.00687331179309	s4_rand_euclid_15.png
+0.00570800242504	s4_rand_euclid_10.png
+0.00509917297141	s4_rand_euclid_20.png
+0.00671581450654	s4_cheb_euclid_15.png
+0.00726662184815	s4_miko_euclid_15.png
+0.00747428718067	s4_true_euclid_15.png

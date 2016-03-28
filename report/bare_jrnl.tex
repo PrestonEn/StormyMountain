@@ -4,21 +4,9 @@
 %
 \ifCLASSINFOpdf
   \usepackage[pdftex]{graphicx}
-  % declare the path(s) where your graphic files are
-  % \graphicspath{{../pdf/}{../jpeg/}}
-  % and their extensions so you won't have to specify these with
-  % every instance of \includegraphics
-  % \DeclareGraphicsExtensions{.pdf,.jpeg,.png}
+  
 \else
-  % or other class option (dvipsone, dvipdf, if not using dvips). graphicx
-  % will default to the driver specified in the system graphics.cfg if no
-  % driver is specified.
-  % \usepackage[dvips]{graphicx}
-  % declare the path(s) where your graphic files are
-  % \graphicspath{{../eps/}}
-  % and their extensions so you won't have to specify these with
-  % every instance of \includegraphics
-  % \DeclareGraphicsExtensions{.eps}
+
 \fi
 
 \begin{document}
@@ -33,28 +21,26 @@
 % As a general rule, do not put math, special symbols or citations
 % in the abstract or keywords.
 \begin{abstract}
-The abstract goes here.
+The K-Means clustering algorithm has been a mainstay of unsupervised machine learning for decades. The algorithm is explored in this report using known datasets of 2D points, using several cluster counts and distance measures, with results compared using the Dunn Index for cluster analysis.
 \end{abstract}
 
-% Note that keywords are not normally used for peerreview papers.
+
 \begin{IEEEkeywords}
-IEEE, IEEEtran, journal, \LaTeX, paper, template.
+Clustering, K-means, Machine Learning
 \end{IEEEkeywords}
 
 \IEEEpeerreviewmaketitle
 
 
 \section{Introduction}
-\IEEEPARstart{T}{his}
-\hfill mds
+\IEEEPARstart{T}{he} K-Means Clustering Algortihm has continued to be the workhorse of clustering tasks since its development in 1967 by James MacQueen. Clustering is the task of grouping a set of unlabled data vectors into groups, or clusters. Items in a cluster should be more alike items in the same cluster, and much less like items in other clusters. Clustering is one of the most common tasks of exploratory data mining for extracting preliminary observations about datasets. In this implementation, the data consists of points on a 2D plain. The clusters are simply the collection of points closest to the center of the cluster based on some distance measure.
+
  
-\hfill August 26, 2015
 
-\subsection{Subsection Heading Here}
-Subsection text here.
 
-\subsubsection{Subsubsection Heading Here}
-Subsubsection text here.
+\section{The K-Means Algorithm}
+
+\section{Results and Discussion}
 
 \section{Conclusion}
 The conclusion goes here.
@@ -63,13 +49,7 @@ The conclusion goes here.
   \newpage
 \fi
 
-\begin{thebibliography}{1}
 
-\bibitem{IEEEhowto:kopka}
-H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
-  0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
-
-\end{thebibliography}
 
 % that's all folks
 \end{document}
